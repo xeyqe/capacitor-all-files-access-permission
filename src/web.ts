@@ -6,8 +6,7 @@ export class AllFilesAccessWeb
   extends WebPlugin
   implements AllFilesAccessPlugin
 {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  async access(): Promise<void> {
+    return Promise.resolve();
   }
 }
