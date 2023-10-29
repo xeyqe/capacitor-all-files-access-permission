@@ -1,6 +1,6 @@
 {
   "name": "capacitor-all-files-access-permission",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "capacitor plugin asks for all files access permission (Android)",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

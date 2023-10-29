@@ -22,7 +22,7 @@ public class AllFilesAccess {
                 call.resolve();
             }
         } else {
-            call.unavailable("Available from sdk version 30");
+            call.resolve();
         }
 
     }
