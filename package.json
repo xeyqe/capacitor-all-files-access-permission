@@ -1,6 +1,6 @@
 {
   "name": "capacitor-all-files-access-permission",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "capacitor plugin asks for all files access permission (Android)",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -27,6 +27,7 @@
     "plugin",
     "native"
   ],
+  "type": "module",
   "scripts": {
     "verify": "npm run verify:ios && npm run verify:android && npm run verify:web",
     "verify:ios": "cd ios && pod install && xcodebuild -workspace Plugin.xcworkspace -scheme Plugin -destination generic/platform=iOS && cd ..",
@@ -230,7 +231,6 @@
     "optionator": "^0.9.4",
     "parent-module": "^3.1.0",
     "parse-json": "^8.1.0",
-    "path-is-absolute": "^2.0.0",
     "path-key": "^4.0.0",
     "path-parse": "^1.0.7",
     "path-type": "^6.0.0",
