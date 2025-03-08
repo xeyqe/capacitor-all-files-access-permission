@@ -14,6 +14,7 @@ npx cap sync
 <docgen-index>
 
 * [`access()`](#access)
+* [`copyFile(...)`](#copyfile)
 
 </docgen-index>
 
@@ -25,6 +26,19 @@ npx cap sync
 ```typescript
 access() => Promise<void>
 ```
+
+--------------------
+
+
+### copyFile(...)
+
+```typescript
+copyFile(obj: { sourceUri: string; destinationUri: string; }) => Promise<void>
+```
+
+| Param     | Type                                                        |
+| --------- | ----------------------------------------------------------- |
+| **`obj`** | <code>{ sourceUri: string; destinationUri: string; }</code> |
 
 --------------------
 
